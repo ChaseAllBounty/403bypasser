@@ -1,0 +1,54 @@
+X-Forwarded-For: 127.0.0.1
+X-Client-IP: 127.0.0.1
+X-Real-IP: 127.0.0.1
+X-Originating-IP: 127.0.0.1
+X-Cluster-Client-IP: 127.0.0.1
+X-Forwarded-Proto: http
+X-Forwarded-Proto: https
+X-Forwarded-Proto: ftp
+X-Forwarded-Https: on
+X-Forwarded-Https: off
+X-Forwarded-Host: internal.example.com
+X-Forwarded-Host: 127.0.0.1:80
+Host: internal.example.com
+Host: 127.0.0.1:80
+Referer: http://internal.example.com
+Referer: http://google.com
+User-Agent: Googlebot/2.1
+User-Agent: Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36
+Accept: text/html
+Accept: application/json
+Accept: */*
+Authorization: Basic YWRtaW46YWRtaW4=
+Authorization: Bearer your_token_here
+Cookie: session_id=1234567890abcdef
+X-Override-URL: /admin
+X-Original-URL: /admin
+X-Rewrite-URL: /admin
+X-HTTP-Method: GET
+X-HTTP-Method-Override: GET
+X-HTTP-DestinationURL: /admin
+X-HTTP-Host-Override: internal.example.com
+X-Requested-With: XMLHttpRequest
+X-ProxyUser-IP: 127.0.0.1
+X-Forwarded-Server: 127.0.0.1
+X-Forwarded-Port: 8080
+X-Forwarded-User: admin
+X-Auth-Token: secret_token
+X-CustomAuth: custom_auth_value
+X-Wap-Profile: http://wap.example.com
+X-Forwarded-Scheme: http
+X-Forwarded-Scheme: https
+X-Forwarded-Prefix: /api
+X-Forwarded-Ssl: on
+Front-End-Https: on
+Origin: http://example.com
+Origin: http://google.com
+DNT: 1
+TE: trailers
+Trailer: Expires
+Pragma: no-cache
+Cache-Control: no-cache
+Connection: keep-alive
+Proxy-Connection: keep-alive
